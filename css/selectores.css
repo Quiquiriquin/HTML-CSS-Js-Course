@@ -1,0 +1,30 @@
+/*
+	* - Selector universal
+*/
+
+h1, h2, h3 {
+	color: blue;
+}
+
+/* Selectores descendentes */
+
+div article p{
+	font-size: 22px;
+	color: black;
+}
+
+p a {
+	color: red;
+}
+
+/* Selector de clase */
+
+.grande{
+	font-size: 28px;
+}
+
+/* Selector de id */
+
+#grande{
+	font-size: 14px;
+}

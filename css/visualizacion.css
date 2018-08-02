@@ -1,0 +1,62 @@
+body {
+	font-family: Arial;
+	background-color: #f2f2f2;
+}
+
+div, a {
+	background: #ccc;
+}
+
+a {
+	background: #24bce9;
+	padding: 20px;
+	display: inline-block;
+	color: white;
+}
+
+
+.caja {
+	color: black;
+	background: #4fb560;
+	margin: 20px 0px;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+}
+
+.contenedor {
+	width: 600px;
+	background: #ccc;
+	margin: 20px 0;
+	overflow: hidden;
+
+}
+
+.izquierda {
+	float: left;
+}
+
+.derecha{
+	float: right;
+}
+
+.contenedor2 .caja {
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+.azul {
+	background: #009ddc;
+	z-index: 11;
+}
+
+.gris {
+	background: #32021f;
+	left: 50px;
+	bottom: 80px;
+	z-index: 10;
+}
+
+
+

@@ -1,0 +1,33 @@
+/*ul, ol {
+	list-style: none;
+	padding: 0;
+}
+*/
+
+ul {
+	list-style: square;
+}
+
+.menu {
+	list-style: none;
+	background: blue;
+	width: 200px;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+.menu li a {
+	border-bottom: 1px solid rgba(255,255,255, .3);
+	text-decoration: none;
+	display: block;
+
+}
+
+a:visited {
+	color: white;
+}
+
+.menu li a:hover{
+	background: lightblue;
+}

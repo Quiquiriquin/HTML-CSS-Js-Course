@@ -1,0 +1,35 @@
+p::first-letter{
+	font-size: 40px;
+}
+
+p::first-line {
+	background: #cf5c36;
+}
+
+*::selection{
+	background: green;
+}
+
+.caja {
+	background: #f9a;
+	height: 150px;
+	width: 150px; 
+}
+
+.caja::before{
+	content: 'Contenido antes de la caja';
+	display: block;
+	position: relative;
+	left: 50px;
+}
+
+.caja::after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #000;
+	position: relative;
+	left: 200px;
+}
+

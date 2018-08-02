@@ -1,0 +1,13 @@
+.caja{
+	width: 200px;
+	height: 200px;
+	background: #F1E3F3;
+	transition: all .3s ease;
+	/*transition-delay: 2s;*/
+}
+
+.caja:hover {
+	width: 400px;
+	background: #C2BBF0;
+	transform: rotate(180deg);
+}

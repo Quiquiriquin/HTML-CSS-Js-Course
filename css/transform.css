@@ -1,0 +1,7 @@
+.caja{
+	background: green;
+	width: 200px;
+	height: 200px;
+	/*transform: translateX(300px);*/
+	transform: scale(2,2);
+}

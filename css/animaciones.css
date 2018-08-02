@@ -1,0 +1,24 @@
+@keyframes colores {
+	/*from{background: #8FB8ED;}
+	to {background: #C4E0F9;}*/
+	0%{background: #2EC0F9;}
+	25%{background: #8FB8ED;}
+	50%{background: #C4E0F9;}
+	75%{background: #62BFED;}
+	100%{background: #2EC0F9;}
+}
+
+@keyframes movimiento {
+	0%{transform: translate(0px);}
+	50%{transform: translate(500px);}
+	100%{transform: translate(0px);}
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #8FB8ED;
+	animation-name: movimiento;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}

@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: white;
+	font-family: Arial;
+	line-height: 22px;
+}
+
+.caja {
+
+	width: 200px;
+	background: #0353a4;
+	margin: 20px;
+	padding: 20px;
+	border: 12px solid #000;
+}
+
+.caja p {
+	background: #eeee59;
+}
